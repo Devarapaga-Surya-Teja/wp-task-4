@@ -1,0 +1,122 @@
+
+<html>
+<head>
+<title>
+Hyderabad
+</title>
+</head>
+<style>
+.nb
+{
+background-color:blue;
+height:70px;
+display: flex;
+justify-content: center;
+text-align:center;
+align-items: center;
+}
+.nb a
+{
+  color:white;
+  text-decoration:none;
+  margin: 0 15px;
+}
+.aa img
+{
+height:35px;
+float:left;
+left:10px;
+vertical-align: middle;
+margin-right: 10px;
+}
+body{
+text-align:center;
+background-color: #d0e4fe; 
+font-weight:bolder;
+text-height:93%;
+
+}
+ body {
+    animation: fadeIn 1.5s ease-in-out;
+    background: url('C:\\Users\\surya\\Downloads\\WP\\background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+background-color: #d0e4fe; 
+
+
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+ h1{
+ text-align: center;
+    text-shadow: 4px 2px 0px white;
+font-weight:bold;
+
+}
+ .nb {
+    background-color: blue;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .nb a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+ transition: transform 0.3s ease-in-out;
+
+  }
+
+  .nb a:hover {
+    color: black;
+    transform: scale(1.4);
+ transform: scale(1.1);
+
+  }
+
+</style>
+<body>
+<h1 >
+Hotel Booking in Hyderabad..
+<hr>
+</h1>
+<div class="nb"><h2>
+<a href="Home.html" class="aa"><img src="home.png">
+<a href="Heritage.html">Heritage</a>
+<a href="Hotel Booking.html">Hotel Booking</a>
+<a href="Gallery.html">Gallery</a>
+</h2></div>
+<hr><h1>
+Enter Your Details:
+</h1><hr>
+<form action="action.php">
+<pre>
+<big>Name:</big>  <input type="text" placeholder="Enter Your First Name"><br>
+	<input type="text" placeholder="Enter Your Last Name"><br></pre>
+Select Your Gender: <input type="radio" name="gender" value="Male">Male
+<input type="radio" name="gender" value="Female">Female<br>
+<br>
+Enter Your Contact No.:
+<input type="number" placeholder="Contact no.">
+<br>
+<br>
+Enter your date of arrival:
+<input type="date" placeholder="dd-mm-yyyy"><br>
+<br>
+Enter No.of Days you are booking for:
+<input type="number" placeholder="No.of Days">
+<br>
+<br>
+<input type="reset" placeholder="Reset">
+<input type="submit" placeholder="Submit">
+</form>
+</body>
+</html>

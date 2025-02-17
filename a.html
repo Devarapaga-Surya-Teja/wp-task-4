@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>Hyderabad Tourism</title>
+<style>
+h1 {
+    font-family: arial;
+    text-align: center;
+    text-shadow: 4px 2px 0px white;
+    font-weight: bold;
+}
+
+.aa img {
+    height: 35px;
+    float: left;
+    left: 10px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.jb {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+figcaption {
+    color: black;
+    font-size: 35px;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;  /* Align items in the center */
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 20px 30px rgba(0, 1, 1, 0.5);
+}
+
+.text-container {
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+}
+
+.nb {
+    background-color: blue;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.nb a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.nb a:hover {
+    color: black;
+    transform: scale(1.1);
+}
+
+body {
+    animation: fadeIn 1.5s ease-in-out;
+    background: url('C:\\Users\\surya\\Downloads\\WP\\background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    background-color: #d0e4fe;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+</style>
+</head>
+<body>
+
+<h1>Heritage Sites of Hyderabad..</h1>
+<hr>
+
+<div class="nb">
+    <h2>
+        <a href="Home.html" class="aa"><img src="home.png"></a>
+        <a href="Heritage.html">Heritage</a>
+        <a href="Hotel Booking.html">Hotel Booking</a>
+        <a href="Gallery.html">Gallery</a>
+    </h2>
+</div>
+
+<hr>
+
+<div class="image-container">
+    <figure>
+        <a href="a.html">
+            <img src="her.3.jpg" height="200">
+            <figcaption>Birla Mandir</figcaption>
+        </a>
+    </figure>
+
+    <div class="text-container">
+        <p>
+            Birla Mandir is a Hindu temple built on a 280 feet (85 m) high hillock called Naubath Pahad on a 13 acres (53,000 m²) plot in Hyderabad, Telangana, India. 
+            The construction took ten years and was opened in 1976 by Swami Ranganathananda of Ramakrishna Mission. 
+            The temple was constructed by the Birla Foundation, which has also constructed several similar temples across India, all known as Birla Mandir.
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
